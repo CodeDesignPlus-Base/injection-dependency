@@ -1,12 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace Example1.Services
+namespace Example2.Services
 {
-    public class MyDependency
+    public class MyDependency : IMyDependency
     {
+        public MyDependency()
+        {
+
+        }
+
         public void WriteMessage(string message)
         {
             Console.WriteLine($"MyDependency.WriteMessage called. Message: {message}");
