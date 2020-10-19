@@ -11,6 +11,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example1", "src\Example1\Ex
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example2", "src\Example2\Example2.csproj", "{BF7E64F1-EA8A-4F7D-82C0-3A7658AA8A9D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{F8C96044-E892-4EF2-8BD5-0094EFACB950}"
+	ProjectSection(SolutionItems) = preProject
+		doc\Diagrama.drawio = doc\Diagrama.drawio
+		doc\Diagrama.png = doc\Diagrama.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
